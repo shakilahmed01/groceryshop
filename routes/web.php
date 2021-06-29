@@ -24,7 +24,10 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 //start Dashboard area
 Route::get('/index', [App\Http\Controllers\DashboardController::class, 'index'])->name('index');
 Route::get('/about', [App\Http\Controllers\DashboardController::class, 'about'])->name('about');
-Route::get('/bestdeal', [App\Http\Controllers\DashboardController::class, 'bestdeal'])->name('bestdeal'); 
+Route::get('/bestdeal', [App\Http\Controllers\DashboardController::class, 'bestdeal'])->name('bestdeal');
+Route::get('/service', [App\Http\Controllers\DashboardController::class, 'service'])->name('service');
+Route::get('/special', [App\Http\Controllers\DashboardController::class, 'special'])->name('special');
+Route::get('/events', [App\Http\Controllers\DashboardController::class, 'events'])->name('events'); 
 
 
 //end

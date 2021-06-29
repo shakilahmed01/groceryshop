@@ -18,4 +18,16 @@ class DashboardController extends Controller
     function bestdeal(){
       return view('dashboard.bestdeal');
     }
+
+    function service(){
+      return view('dashboard.service');
+    }
+
+    function special(){
+      return view('dashboard.special');
+    }
+
+    function events(){
+      return view('dashboard.events');
+    }
 }

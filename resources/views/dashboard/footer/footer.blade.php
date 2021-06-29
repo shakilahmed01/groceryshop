@@ -63,7 +63,7 @@
 				<div class="clearfix"> </div>
 			</div>
 			<div class="wthree_footer_copy">
-				<p>© 2016 Grocery Store. All rights reserved | Design by <a href="http://www.github.com/shakilahmed01">Shakil Ahmed</a></p>
+				<p>Copyright ©️2021 Grocery Store. All rights reserved | Design by <a href="http://www.github.com/shakilahmed01">Shakil Ahmed</a></p>
 			</div>
 		</div>
 	</div>

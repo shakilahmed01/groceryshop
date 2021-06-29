@@ -1,7 +1,7 @@
 <!-- header -->
 	<div class="agileits_header">
 		<div class="w3l_offers">
-			<a href="products.html">Today's special Offers !</a>
+			<a href="{{ route('special') }}">Today's special Offers !</a>
 		</div>
 		<div class="w3l_search">
 			<form action="#" method="post">
@@ -25,8 +25,8 @@
 					<div class="mega-dropdown-menu">
 						<div class="w3ls_vegetables">
 							<ul class="dropdown-menu drp-mnu">
-								<li><a href="login.html">Login</a></li>
-								<li><a href="login.html">Sign Up</a></li>
+								<li><a href="{{ route('login') }}">Login</a></li>
+								<li><a href="{{ route('register') }}">Sign Up</a></li>
 							</ul>
 						</div>
 					</div>
@@ -47,10 +47,10 @@
 			<div class="w3ls_logo_products_left1">
 				<ul class="special_items">
           <li><a href="{{route('index')}}">Home</a><i>/</i></li>
-					<li><a href="events.html">Events</a><i>/</i></li>
+					<li><a href="{{ route('events') }}">Events</a><i>/</i></li>
 					<li><a href="{{route('about')}}">About Us</a><i>/</i></li>
 					<li><a href="{{route('bestdeal')}}">Best Deals</a><i>/</i></li>
-					<li><a href="services.html">Services</a></li>
+					<li><a href="{{route('service')}}">Services</a></li>
 				</ul>
 			</div>
 			<div class="w3ls_logo_products_left1">
